@@ -23,7 +23,7 @@ class Row
      * @param Cell[] $cells
      * @param Style|null $style
      */
-    public function __construct(array $cells, $style)
+    public function __construct(array $cells, ?Style $style = null)
     {
         $this
             ->setCells($cells)
